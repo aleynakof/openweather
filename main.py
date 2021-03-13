@@ -8,7 +8,7 @@ from multiple_replace import multiple_replace
 city = input("insert a city name").replace("İ", "i").lower()
 print(city)
 api_request = requests.get("http://api.openweathermap.org/data/2.5/"
-                           "weather?q=" + city + "&appid=24bb5a00705b2420901490c95519ab0b")
+                           "weather?q=" + city + "&appid=******************")
 print(api_request)
 
 weather = {
